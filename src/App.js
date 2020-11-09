@@ -5,7 +5,11 @@ import HeaderInfo from './components/HeaderInfo/HeaderInfo'
 import NewsList from './components/NewsList/NewList'
 import Widget from './components/Widget/Widget'
 import ExchangeRates from './components/ExchangeRates/ExchangeRates'
+import Sections from './components/Sections/Sections'
+import Search from './components/Search/Search'
+import Banners from './components/Banners/Banners'
 import IconImages from './Images/images.jpg'
+import IconLogo from './Images/logo.jpg'
 
 function App() {
   return (
@@ -22,6 +26,12 @@ function App() {
           </Widget>
         </div>
       </header>
+      <Sections />
+      <div className="middle-container">
+        <img src={IconLogo} alt="" />
+        <Search />
+      </div>
+      <Banners />
     </div>
   )
 }

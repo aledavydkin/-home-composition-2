@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+}
+
+input {
+  height: 38px;
+  width: 400px;
+  border: 1px solid #ffdb4d;
+  padding: 0 10px;
+  margin-left: 10px;
+}
+
+button {
+  background-color: #ffdb4d;
+  height: 40px;
+  border: 1px solid #ffdb4d;
+  width: 100px;
+  cursor: pointer;
+}
