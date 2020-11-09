@@ -1,4 +1,22 @@
 .MainContainer {
   width: 1200px;
-  margin: 0 auto;
+  margin: 50px auto 0;
+}
+
+p {
+  margin: 5px 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+}
+
+.header-left {
+  margin-right: 50px;
+}
+
+.header-right {
+  display: flex;
+  align-items: flex-end;
 }

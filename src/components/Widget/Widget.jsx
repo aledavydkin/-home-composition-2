@@ -7,9 +7,10 @@ import styles from './Widget.module.scss'
  */
 
 function Widget(props) {
-  const { title, color } = props
+  const { title, color, images } = props
   return (
     <div>
+      {images ? <img src={images} alt="" /> : null}
       <a
         className={clsx(styles.caption, color === 'blue' && styles.captionBlue)}
         href="/"
@@ -24,6 +25,7 @@ function Widget(props) {
 Widget.propTypes = {
   children: PropTypes.node,
   color: PropTypes.string,
+  images: PropTypes.string,
   title: PropTypes.string.isRequired,
 }
 
