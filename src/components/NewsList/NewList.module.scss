@@ -1,0 +1,14 @@
+.newListUl {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  img {
+    width: 50px;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+  }
+}
