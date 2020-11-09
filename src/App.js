@@ -32,6 +32,13 @@ function App() {
         <Search />
       </div>
       <Banners />
+      <div className="information-block">
+        <Widget title="Погода" />
+        <Widget title="Погода" />
+        <Widget title="Погода" />
+        <Widget title="Погода" />
+        <Widget title="Погода" />
+      </div>
     </div>
   )
 }
