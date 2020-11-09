@@ -1,0 +1,17 @@
+.exchangeRatesContainer {
+  display: flex;
+  margin-top: 10px;
+
+  > div {
+    margin-right: 20px;
+  }
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.exchangeRatesAddNumber {
+  color: grey;
+  font-weight: normal;
+}

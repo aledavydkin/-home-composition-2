@@ -2,7 +2,9 @@ import React from 'react'
 import { nanoid } from 'nanoid'
 import data from './data'
 import styles from './NewList.module.scss'
-
+/**
+ * Компонент «NewList»: Компонент вывода новостей.
+ */
 function NewList() {
   return (
     <>
